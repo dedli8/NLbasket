@@ -2,10 +2,11 @@
 @import 'fonts';
 @import 'mixins';
 @import 'reset';
+@import 'customselect';
 
-.container{
+.container {
   margin: 0 auto;
- width-max: 1000px;
+  width-max: 1000px;
 }
 
 @import "../../components/basketsinged/_basketsinged.scss";
