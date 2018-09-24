@@ -1,0 +1,12 @@
+@import 'settings';
+@import 'fonts';
+@import 'mixins';
+@import 'reset';
+
+.container{
+  margin: 0 auto;
+ width-max: 1000px;
+}
+
+@import "../../components/basketsinged/_basketsinged.scss";
+@import "../../components/basketsinged/_basketunsinged.scss";
