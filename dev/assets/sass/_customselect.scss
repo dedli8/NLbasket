@@ -7,69 +7,63 @@
 }
 
 /*style the arrow inside the select element:*/
+.select-selected{
+  font-weight: 300;
+  font-size: 14px;
+}
 .select-selected:after {
   position: absolute;
-  content: "›";
+  content: "";
   font-size: 20px;
-  top: 14px;
-  right: 0;
+  top: 7px;
+  right: 5px;
   width: 0;
   height: 0;
-  color: #a6a6a6;
-  transform: rotate(90deg);
-  font-weight: bold;
-  @include media($width-xs) {
-    font-size: 30px;
-    top: 22px;
-  }
-  @include media($width-mid) {
-    font-size: 56px;
-    top: 46px;
-    }
-  @include media($width-max) {
-    font-size: 20px;
-    top: 19px;
-  }
+  border-style: solid;
+  border-width: 7px 4px 0 4px;
+  border-color: #ffffff transparent transparent transparent;
 }
-
+.select-selected:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: $bggray;
+}
 /*point the arrow upwards when the select box is open (active):*/
 .select-selected.select-arrow-active:after {
-  content: "‹";
+  border-width: 0 4px 7px 4px;
+  border-color: transparent transparent #ffffff transparent;
 }
 
 /*style the items (options), including the selected item:*/
+
 .select-items div, .select-selected {
-  height: 35px;
-  padding: 11.5px 10px;
+  height: 20px;
+  //padding: 11.5px 10px;
   cursor: pointer;
   user-select: none;
-  box-sizing: border-box;
-  @include media($width-xs) {
-    padding: 16.5px 8px 16.5px 18px;
-    height: 50px;
-  }
-  @include media($width-mid) {
-    padding: 36px 30px;
-    height: 105px;
-  }
-  @include media($width-max) {
-    padding: 13px 7px 13px 20px;
-    height: 44px;
-  }
 }
 
 /*style items (options):*/
 .select-items {
   position: absolute;
-  background-color: $mainwhite;
-  top: 100%;
-  left: 0;
-  right: 0;
+  background-color: white;
+  //top: 100%;
+  left: -1px;
+  //right: 0;
   z-index: 99;
+  border: 1px solid #d7d7e4;
+  width: 100%;
   div {
-    border-bottom: 1px solid #a6a6a6;
+    //border: 1px solid #d7d7e4;
+    font-size: 14px;
+    font-weight: 300;
+    width: 100%;
     &:first-child {
-      border-top: 1px solid #a6a6a6;
+      //border: 1px solid #d7d7e4;
     }
   }
 }

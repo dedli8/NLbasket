@@ -3,11 +3,16 @@
 @import 'mixins';
 @import 'reset';
 @import 'customselect';
+@import 'customcheckbox';
 
 .container {
+  max-width: 1000px;
   margin: 0 auto;
-  width-max: 1000px;
+}
+.basket{
+  width: 50%;
+  font-family: $ubuntu;
 }
 
 @import "../../components/basketsinged/_basketsinged.scss";
-@import "../../components/basketsinged/_basketunsinged.scss";
+@import "../../components/basketunsinged/_basketunsinged.scss";

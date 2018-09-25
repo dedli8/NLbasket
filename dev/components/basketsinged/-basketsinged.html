@@ -1,0 +1,77 @@
+<div class="basket-singed">
+    <h1 class="basket-title">Оформлення замовлення</h1>
+    <form class="basket-singed-form">
+        <div class="form-fields-wrap">
+            <label class="basket-form-label" for="form-name">Ім'я <span class="red-notation-mark">*</span></label>
+            <div class="form-input-box"><input type="text" name="form-name" id="form-name">
+            </div>
+        </div>
+        <div class="form-fields-wrap">
+            <label class="basket-form-label" for="form-email">Ел. пошта <span
+                    class="red-notation-mark">*</span><br><span class="gray-hint">(для відстеження
+                стану замовлення)</span>
+            </label>
+            <div class="form-input-box no-border"><input type="text" name="form-email" id="form-email"
+                                               value="odpkdiodklpd@gmail.com">
+            </div>
+        </div>
+        <div class="form-fields-wrap">
+            <label class="basket-form-label" for="form-phone">Телефон <span class="red-notation-mark">*</span><br><span
+                    class="gray-hint"> (Для підтвердження/
+                уточнення замовленя)</span>
+            </label>
+            <div class="form-input-box"><input type="text" name="form-phone" id="form-phone">
+                <br>
+                <span class="gray-hint">наприклад: (067)-123-45-67</span>
+            </div>
+        </div>
+        <div class="form-fields-wrap">
+            <label class="basket-form-label" for="form-city">Місто <span class="red-notation-mark">*</span><br><span
+                    class="gray-hint"> (Для вибору даставки
+                та оплати)</span>
+            </label>
+            <div class="form-input-box"><input type="text" name="form-city" id="form-city">
+            </div>
+        </div>
+        <div class="delivery-wrap">
+        <div class="form-fields-wrap">
+            <label class="basket-form-label" for="form-pay">Спосіб оплати</label>
+            <div class="custom-select form-input-box">
+                <select type="text" name="form-pay" id="form-pay" form="basket-singed-form">
+                <option value="cash">Готівкою, при отримані</option>
+                <option value="bank-transfer">Безготівковий розрахунок</option>
+                <option value="np-pay">Післяплата Нова Пошта</option>
+                <option value="card">Карткою на сайті</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-fields-wrap">
+            <label class="basket-form-label" for="form-delivery">Спосіб доставки</label>
+            <div class="custom-select form-input-box">
+                <select type="text" name="form-delivery" id="form-delivery" form="basket-singed-form">
+                    <option value="np">У відділені Нової Пошти</option>
+                    <option value="self-serving">Самовивіз</option>
+                    <option value="courier">Кур'єр</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-fields-wrap">
+            <div class="basket-form-label">Адреса доставки</div>
+            <div class="form-input-box address-delivery"><input type="text" name="form-street" id="form-street" placeholder="Название улицы"><input type="text" name="form-house" id="form-house" placeholder="Дом"><input type="text" name="form-app" id="form-app" placeholder="Кварт">
+            </div>
+        </div>
+        </div>
+        <div class="availability-now">
+            <div>!</div><div>Даний товар можна забрати в обраному
+            магазині сьогодні</div>
+        </div>
+        <label class="custom-checkbox-wrap">Не передзвонюйте мені для підтвердження замовлення
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+        <a href="#" class="add-comment">Додати коментар</a>
+        <div class="line-throw"></div>
+        <button type="submit" class = "btn-submit">підтвердити замовлення</button>
+    </form>
+    <div class="acsept-conditions">Реєструючись і оформляючи замовлення, я погоджуюсь з <a href="#">умовами користувача</a></div>
+</div>

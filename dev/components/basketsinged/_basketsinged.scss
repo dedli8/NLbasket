@@ -1,0 +1,122 @@
+.basket {
+  .basket-title {
+    font-size: 24px;
+    margin-bottom: 29px;
+  }
+  .basket-form-label {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    width: 24%;
+    margin-right: 5%;
+  }
+  .red-notation-mark {
+    color: red;
+  }
+  .gray-hint {
+    color: $fontgray;
+    font-size: 11px;
+    font-weight: 300;
+  }
+  .form-input-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 54%;
+    height: 20px;
+    border: 1px solid #d7d7e4;
+    input {
+      width: 100%;
+      border: none;
+    }
+  }
+  .form-fields-wrap {
+    margin-bottom: 25px;
+  }
+  .delivery-wrap{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    .form-fields-wrap{
+      margin-bottom: 47px;
+    }
+  }
+  #form-email {
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .no-border{
+    border: none;
+  }
+  .address-delivery{
+    border: none;
+    font-size: 0;
+  }
+  .address-delivery>input{
+    border: 1px solid #d7d7e4;
+    box-sizing: border-box;
+    height: 22px;
+  }
+  .address-delivery>input:first-child{
+    width: 60%;
+  }
+  .address-delivery>input:nth-child(2){
+    width: 20%;
+  }
+  .address-delivery>input:nth-child(3){
+    width: 20%;
+  }
+  .availability-now > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .availability-now {
+    margin-bottom: 33px;
+    div:first-child {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #00984a;
+      color: white;
+      font-size: 32px;
+      text-align: center;
+      line-height: 30px;
+      margin-right: 10px;
+    }
+    div:last-child {
+      color: #020202;
+      font-size: 14px;
+      width: 70%;
+    }
+  }
+  .add-comment {
+    color: #7389c3;
+    font-size: 13px;
+    border-bottom: 1px dashed #7389c3;
+    padding-bottom: 3px;
+    margin-top: 23px;
+    margin-bottom: 18px;
+  }
+  .line-throw {
+    height: 1px;
+    background-color: #d7d7e4;
+    margin-bottom: 20px;
+  }
+  .btn-submit {
+    width: 225px;
+    height: 35px;
+    background-color: #ff0000;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .acsept-conditions{
+    font-size: 13px;
+    font-weight: 300;
+    a{
+      color: #7389c3;
+    }
+  }
+}
