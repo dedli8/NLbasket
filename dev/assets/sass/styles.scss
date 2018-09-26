@@ -13,6 +13,9 @@
   width: 50%;
   font-family: $ubuntu;
 }
-
+.basket-title {
+  font-size: 24px;
+}
 @import "../../components/basketsinged/_basketsinged.scss";
 @import "../../components/basketunsinged/_basketunsinged.scss";
+@import "../../components/basketunsinged/newcustomerform/__newcustomerform.scss";

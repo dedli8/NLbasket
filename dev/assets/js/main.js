@@ -72,3 +72,28 @@ function closeAllSelect(elmnt) {
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 
+
+// toogle basket unsinged forms
+$(function () {
+    $("#new-customer").click(function () {
+        if ($(this).hasClass('basket-toggle-panel-active')){
+            return;
+        } else{
+            console.log("No");
+            $("#regular-customer").removeClass("basket-toggle-panel-active");
+            $(this).addClass("basket-toggle-panel-active");
+            $("#new-customer-form").hide();
+            $("#basket-singed-form").css("display", "inline-block");
+        }
+    });
+    $("#regular-customer").click(function () {
+        if ($(this).hasClass('basket-toggle-panel-active')){
+            return
+        } else{
+            $("#new-customer").removeClass("basket-toggle-panel-active");
+            $(this).addClass("basket-toggle-panel-active");
+            $("#basket-singed-form").hide();
+            $("#new-customer-form").css("display", "inline-block");
+        }
+    });
+});

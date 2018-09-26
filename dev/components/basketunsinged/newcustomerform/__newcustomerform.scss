@@ -1,0 +1,110 @@
+#new-customer-form {
+  padding-top: 11px;
+  padding-left: 8px;
+  display: none;
+  width: 50%;
+  vertical-align: top;
+  margin-right: 2%;
+  .new-customer-form-item {
+    width: 90%;
+    display: inline-block;
+  }
+  .new-customer-form-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .form-input-box {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  .forgot-pass {
+    color: #6183dc;
+    font-size: 12px;
+  }
+  .btn-enter {
+    width: 85px;
+    height: 17px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    background-color: #00984a;
+    font-size: 12px;
+    cursor: pointer;
+    float: right;
+  }
+}
+
+.or-divider {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  .divider-line {
+    width: 1px;
+    height: 170px;
+    position: absolute;
+    background-color: #d7d7e4;
+  }
+  .divider-circle {
+    position: absolute;
+    left: -16px;
+    top: 70px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #d7d7e4;
+    font-size: 11px;
+    color: #d7d7e4;
+    background-color: white;
+  }
+}
+
+.socials-sing-in {
+  padding-top: 11px;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  color: #808080;
+  font-size: 14px;
+  text-align: center;
+  .fb-btn, .g-plus-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 98px;
+    height: 22px;
+    margin: 0 auto;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  .socials-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background: cover no-repeat;
+    margin-right: 8px;
+  }
+  .fb-btn {
+    background-color: #3b5998;
+    margin: 12px auto;
+    .fb-icon {
+      width: 8px;
+      height: 16px;
+      background-image: url("img/fbicon.png");
+    }
+  }
+  .g-plus-btn {
+    background-color: #db4437;
+    .g-plus-icon {
+      width: 16px;
+      height: 12px;
+      background-image: url("img/gplus.png");
+    }
+    span:last-child {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
