@@ -1,7 +1,11 @@
+.new-customer-form-wrap{
+  display: none;
+  vertical-align: top;
+}
 #new-customer-form {
+  display: inline-block;
   padding-top: 11px;
   padding-left: 8px;
-  display: none;
   width: 50%;
   vertical-align: top;
   margin-right: 2%;

@@ -1,0 +1,137 @@
+.basket-goods-card {
+  border: 2px solid #ebebf1;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin-top: 26px;
+  font-weight: 300;
+  padding-top: 10px;
+  .basket-goods-card-wrap{
+    padding: 0 40px;
+  }
+  .goods-card-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .delete-icon-wrap{
+    position: relative;
+  }
+  .delete-icon{
+    position: absolute;
+    font-size: 13px;
+    color: #c2c2c2;
+    left: -22px;
+    top: -9px;
+    cursor: pointer;
+  }
+  .goods-card-description{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .goods-name {
+    font-size: 11px;
+    width: 110px;
+  }
+  .quantity-block{
+    width: 50px;
+  }
+  .quantity-block>*{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .quantity-num{
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border: 1px solid #c2c2c2;
+    margin: 0 3px;
+    box-sizing: border-box;
+  }
+  .quantity-arrow-minus, .quantity-arrow-plus {
+    padding: 0;
+     border: none;
+     background-color: inherit;
+     color: #c2c2c2;
+     font-size: 22px;
+    cursor: pointer;
+   }
+  .quantity-arrow-minus:hover, .quantity-arrow-plus:hover,  .delete-icon:hover{
+    color: black;
+  }
+  .quantity-arrow-minus {
+    font-size: 15px;
+  }
+  .basket-price{
+    font-size: 12px;
+    color: #e60017;
+  }
+.goods-card-delivery{
+font-size: 0;
+  padding: 10px 15px 9px 5px;
+  border-bottom: 1px solid #cfcfcf;
+  border-top: 1px solid #cfcfcf;
+}
+  .courier-delivery-text, .courier-delivery-price{
+    display: inline-block;
+    width: 50%;
+    font-size: 12px;
+  }
+  .courier-delivery-text{
+    text-align: left;
+    margin-bottom: 26px;
+  }
+  .courier-delivery-price{
+    text-align: right;
+  }
+  .delivery-info{
+    display: block;
+    width: 45%;
+    border-bottom: 2px dashed #5471b9;
+    color: #5471b9;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .total-pay{
+    font-size: 0;
+    margin: 23px 0 19px 0;
+  }
+  .total-pay>*{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+  }
+  .total-pay-price{
+    font-size: 14px;
+    text-align: right;
+  }
+  .total-pay-text{
+    text-align: left;
+    font-size: 18px;
+  }
+  .bonuses {
+    padding: 11px 40px 19px 38px;
+    background-color: #ebebf1;
+    .bonus-label {
+      font-size: 18px;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .bonus-input {
+      display: inline-block;
+      border: 1px solid #a3a3c1;
+      width: 195px;
+      height: 21px;
+      box-sizing: border-box;
+      background-color: #f3f3f7;
+    }
+    .btn-submit{
+      width: 94px;
+      height: 21px;
+      font-size: 10.12px;
+      float: right;
+    }
+  }
+}

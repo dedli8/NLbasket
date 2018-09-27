@@ -4,13 +4,14 @@
 @import 'reset';
 @import 'customselect';
 @import 'customcheckbox';
+@import 'custominputnumber';
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
 }
 .basket{
-  width: 50%;
+  font-size: 0;
   font-family: $ubuntu;
 }
 .basket-title {
@@ -19,3 +20,4 @@
 @import "../../components/basketsinged/_basketsinged.scss";
 @import "../../components/basketunsinged/_basketunsinged.scss";
 @import "../../components/basketunsinged/newcustomerform/__newcustomerform.scss";
+@import "../../components/basketgoodscard/_basketgoodscard.scss";

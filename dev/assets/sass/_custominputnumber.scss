@@ -1,0 +1,11 @@
+.quantity-num[type=number]::-webkit-inner-spin-button,
+.quantity-num[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+/* Для Firefox */
+.quantity-num[type=number]{
+  -moz-appearance: textfield;
+}

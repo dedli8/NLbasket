@@ -1,5 +1,10 @@
 .basket {
   margin-top: 29px;
+  .basket-singed{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+  }
   .basket-form-label {
     display: inline-block;
     vertical-align: middle;
