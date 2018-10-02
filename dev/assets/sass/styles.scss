@@ -7,17 +7,13 @@
 @import 'custominputnumber';
 
 .container {
-  max-width: 1000px;
+  max-width: 940px;
   margin: 0 auto;
 }
 .basket{
   font-size: 0;
   font-family: $ubuntu;
 }
-.basket-title {
-  font-size: 24px;
-}
-@import "../../components/basketsinged/_basketsinged.scss";
-@import "../../components/basketunsinged/_basketunsinged.scss";
-@import "../../components/basketunsinged/newcustomerform/__newcustomerform.scss";
-@import "../../components/basketgoodscard/_basketgoodscard.scss";
+@import "../../components/mobilebasketstep1/_mobilebasketstep1.scss";
+@import "../../components/mobilebasketstep2/_mobilebasketstep2.scss";
+@import "../../components/mobilebasketstep3/_mobilebasketstep3.scss";
