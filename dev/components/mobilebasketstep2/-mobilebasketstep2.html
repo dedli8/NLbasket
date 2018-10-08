@@ -1,0 +1,93 @@
+<section class="basket-step2">
+    <h1 class="title">Оформлення замовлення</h1>
+    <form id="basket-step2-form" class="basket-step2-form">
+        <div class="container">
+            <div class="current-step-block">
+                <div class="step-item">
+                    <div class="step-mark"></div>
+                    <div class="step-title">Корзина</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-mark"></div>
+                    <div class="step-title">Дані про покупця</div>
+                </div>
+                <div class="step-item">
+                    <div class="step-mark"></div>
+                    <div class="step-title">Доставка/оплата</div>
+                </div>
+            </div>
+        </div>
+        <div class="line-throw"></div>
+        <div class="container">
+            <div class="change-order-block">
+                <button class="order-button">Замовлення</button>
+                <a href="#" class="change-order">Змінити</a>
+            </div>
+            <div class="ordered-goods-block">
+                <img src="img/mobgoodspic2.png" alt="">
+                <div class="order-goods-info">
+                    <div class="ordered-goods-name">Плед флісовий Underprice Квітка 150x180 см</div>
+                    <div class="ordered-goods-size">Розмір - 150x180 см</div>
+                    <div class="ordered-goods-num">1шт</div>
+                </div>
+            </div>
+            <div class="mob-delivery-pay-wrap">
+                <div class="mob-delivery-pay-title">Доставка</div>
+                <div class="custom-select mob-form-select-box">
+                    <select type="text" name="form-delivery" id="form-delivery" form="basket-step2-form">
+                        <option value="np">У відділені Нової Пошти</option>
+                        <option value="self-serving">Самовивіз</option>
+                        <option value="courier">Кур'єр</option>
+                    </select>
+                </div>
+                <div class="custom-select mob-form-select-box mob-nl-delivery">
+                    <select type="text" name="form-delivery" id="nl-delivery" form="basket-step2-form">
+                        <option value="department">Відділення №1</option>
+                        <option value="department #2">Відділення №2</option>
+                        <option value="department #3">Відділення №3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mob-delivery-pay-wrap">
+                <div class="mob-delivery-pay-title">Оплата</div>
+                <div class="custom-select mob-form-select-box">
+                    <select type="text" name="mob-select-pay" form="basket-step2-form">
+                        <option value="cash">Готівкою, при отримані</option>
+                        <option value="bank-transfer">Безготівковий розрахунок</option>
+                        <option value="np-pay">Післяплата Нова Пошта</option>
+                        <option value="card">Карткою на сайті</option>
+                    </select>
+                </div>
+                <div class="mob-bonus-box">
+                <div class="mob-form-select-box mob-bonus-wrap">
+                    <input type="text" class="mob-bonus-input" placeholder="Номер бонусної карти">
+                </div>
+                <button type="submit" class = "mob-bonus-submit">Підтвердити</button>
+            </div>
+            </div>
+            <div class="mob-total-wrap">
+                <a href="javascript:void(0)" class="add-comment">Додати коментар</a>
+                <textarea class="comment-area"></textarea>
+                <div class="mob-total-box">
+                    <div class="mob-total-box-item">
+                        <div>Сума замовлення</div>
+                        <div>124,98 грн</div>
+                    </div>
+                <div class="mob-total-box-item total-delivery">
+                    <div>Доставка</div>
+                    <div>0 грн</div>
+                </div>
+
+            <div class="mob-total-box-item">
+                <div>До сплати</div>
+                <div>124,98 грн</div>
+            </div>
+        </div>
+                <button class="mob-submit">Підтвердити</button>
+                <div class="mob-accept-conditions">Підтверджуючи замовлення, я погоджуюсь з <br>
+                    <a href="javascript:void(0)">умовами користувача.</a> </div>
+        </div>
+        </div>
+    </form>
+    <div class="line-throw"></div>
+</section>

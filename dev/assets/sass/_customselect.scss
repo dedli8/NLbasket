@@ -9,42 +9,34 @@
 /*style the arrow inside the select element:*/
 .select-selected{
   font-weight: 300;
-  font-size: 14px;
+  font-size: 27px;
 }
 .select-selected:after {
   position: absolute;
   content: "";
-  font-size: 20px;
-  top: 7px;
-  right: 5px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 7px 4px 0 4px;
-  border-color: #ffffff transparent transparent transparent;
-}
-.select-selected:before {
-  position: absolute;
-  content: "";
-  right: 0;
-  top: 0;
-  width: 20px;
-  height: 20px;
-  background-color: $bggray;
+  font-size: 27px;
+  top: 24px;
+  right: 50px;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #76797c;
+  border-right: 2px solid #76797c;
+  transform: rotate(45deg);
 }
 /*point the arrow upwards when the select box is open (active):*/
 .select-selected.select-arrow-active:after {
-  border-width: 0 4px 7px 4px;
-  border-color: transparent transparent #ffffff transparent;
+  transform: rotate(225deg);
 }
 
 /*style the items (options), including the selected item:*/
 
 .select-items div, .select-selected {
-  height: 20px;
+  height: 63px;
   //padding: 11.5px 10px;
   cursor: pointer;
   user-select: none;
+  padding-left: 18px;
+  box-sizing: border-box;
 }
 
 /*style items (options):*/
@@ -52,14 +44,17 @@
   position: absolute;
   background-color: white;
   //top: 100%;
-  left: -1px;
+  left: -2px;
+  top: 53px;
   //right: 0;
   z-index: 99;
-  border: 1px solid #d7d7e4;
+  border: 2px solid #babcbd;
+  border-radius: 0 0 8px 8px;
   width: 100%;
+  border-top: none;
   div {
     //border: 1px solid #d7d7e4;
-    font-size: 14px;
+    font-size: 27px;
     font-weight: 300;
     width: 100%;
     &:first-child {
@@ -73,6 +68,6 @@
   display: none;
 }
 
-.select-items div:hover, .same-as-selected {
+.select-items div:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }

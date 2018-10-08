@@ -1,18 +1,18 @@
 @import 'settings';
 @import 'fonts';
 @import 'mixins';
-@import 'reset';
-@import 'customselect';
 @import 'customcheckbox';
 @import 'custominputnumber';
 
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-}
 .basket{
+  @import 'reset';
+  @import 'customselect';
   font-size: 0;
   font-family: $ubuntu;
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+  }
 }
 @import "../../components/mobilebasketstep1/_mobilebasketstep1.scss";
 @import "../../components/mobilebasketstep2/_mobilebasketstep2.scss";
