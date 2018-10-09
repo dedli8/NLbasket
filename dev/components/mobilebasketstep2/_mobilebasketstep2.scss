@@ -4,6 +4,7 @@
     text-align: center;
     font-size: 54px;
     color: #76797c;
+    font-weight: 300;
   }
   .line-throw {
     border-bottom: 1px solid #a19f9f;
@@ -12,11 +13,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 30px 20px 60px;
+    padding: 30px 30px 20px 30px;
     .step-item {
       width: 160px;
       text-align: center;
       .step-mark {
+        box-sizing: border-box;
         margin: 0 auto;
         border-radius: 50%;
         width: 50px;
@@ -50,21 +52,24 @@
       text-align: center;
     }
     .step-item:last-child .step-mark:after{
+      top: 16px;
+      left: 10px;
       content: "3";
       border: none;
       color: #009a49;
       transform: rotate(0deg);
-      font-size: 32px;
-      line-height: 16px;
+      font-size: 27px;
+      line-height: 10px;
       padding-left: 3px;
       font-weight: 700;
     }
   }
   .change-order-block {
-    padding: 60px 40px 30px 0;
+    padding: 60px 40px 0px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    align-content: flex-start;
     .order-button {
       width: 220px;
       height: 50px;
@@ -82,7 +87,7 @@
     }
   }
   .ordered-goods-block {
-    margin-bottom: 25px;
+    margin-bottom: 7px;
   }
   .ordered-goods-block > * {
     display: inline-block;
@@ -93,21 +98,22 @@
     width: 420px;
     font-weight: 300;
     margin-left: 80px;
+    align-self: stretch;
     .ordered-goods-name {
       font-size: 27px;
-      margin-bottom: 20px;
     }
     .ordered-goods-size {
       font-size: 25px;
       color: #312930;
-      margin-bottom: 30px;
+      margin-bottom: 26px;
+      margin-top: 14px;
     }
     .ordered-goods-num {
       font-size: 27px;
     }
   }
   .mob-delivery-pay-wrap {
-    padding: 30px 28px;
+    padding: 4px 28px 28px 28px;
     font-weight: 300;
     font-size: 27px;
     color: #76797c;
@@ -117,7 +123,8 @@
   .mob-delivery-pay-title {
     font-size: 37px;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 19px;
+    line-height: 60px;
   }
   .mob-form-select-box {
     width: 90%;
@@ -128,7 +135,7 @@
     box-sizing: border-box;
   }
   .mob-nl-delivery {
-    margin-top: 27px;
+    margin-top: 32px;
   }
 
   .add-comment {
@@ -137,6 +144,7 @@
     color: #779ec5;
     font-weight: 300;
     margin-left: 80px;
+    margin-bottom: 6px;
   }
   .comment-area {
     display: none;
@@ -147,22 +155,24 @@
   }
   .mob-total-wrap {
     border-top: #babcbd 1px solid;
-    padding-top: 30px;
+    padding-top: 38px;
     padding-bottom: 40px;
   }
   .mob-total-box {
-    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 80px;
+    font-size: 38px;
     font-weight: 300;
     .mob-total-box-item {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 60px;
+      margin-top: 57px;
     }
     .total-delivery {
       color: #5c5c5c;
       font-size: 29px;
-      margin: 27px 0 65px 0;
+      margin-top: 19px;
     }
   }
   .mob-bonus-box{
@@ -234,10 +244,11 @@
     border: none;
     margin: 0 auto;
     border-radius: 8px;
-    margin-top: 80px;
+    margin-top: 68px;
     margin-bottom: 22px;
   }
   .mob-accept-conditions {
+    line-height: 25px;
     font-weight: 300;
     font-size: 24px;
     margin: 0 auto;

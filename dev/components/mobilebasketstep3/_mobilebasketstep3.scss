@@ -1,0 +1,120 @@
+.basket-step3 {
+  .current-step-block {
+    .step-item:nth-child(2) .step-mark {
+      background-color: white;
+      border: 3px solid #009a49;
+      text-align: center;
+    }
+    .step-item:nth-child(2) .step-mark:after {
+      top: 16px;
+      left: 10px;
+      content: "2";
+      border: none;
+      color: #009a49;
+      transform: rotate(0deg);
+      font-size: 27px;
+      line-height: 10px;
+      padding-left: 3px;
+      font-weight: 700;
+    }
+    .step-item:last-child .step-mark {
+      border-color: #9a9a9a;
+    }
+    .step-item:last-child .step-mark:after {
+      color: #9a9a9a;
+    }
+  }
+  .mob-enter-shop {
+    padding: 36px 0;
+    display: block;
+    width: 75%;
+    margin: 75px auto 35px auto;
+    background-color: #eff3f7;
+    font-size: 64.43px;
+    text-align: center;
+    color: #6a8db0;
+    font-weight: 300;
+  }
+  .mob-new-customer {
+    font-size: 40.81px;
+    font-weight: 300;
+    color: #818386;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+  }
+  .mob-form-select-box {
+    width: 80%;
+  }
+  .mob-new-customer-input {
+    height: 100%;
+    width: 98%;
+    vertical-align: top;
+    border: none;
+    outline: none;
+    font-size: 29px;
+    text-align: left;
+  }
+  .mob-new-customer-input::placeholder {
+    font-family: $ubuntu, sans-serif;
+    font-weight: 300;
+    color: #76797c;
+    opacity: 1; /* Firefox */
+  }
+
+  .mob-new-customer-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #76797c;
+    font-family: $ubuntu, sans-serif;
+    font-weight: 300;
+  }
+
+  .mob-new-customer-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #76797c;
+    font-weight: 300;
+    font-family: $ubuntu, sans-serif;
+  }
+  .new-customer-input-wrap {
+    padding: 3px 0 3px 18px;
+    box-sizing: border-box;
+    margin-top: 45px;
+  }
+  .new-customer-input-wrap:first-child {
+    margin-top: 0;
+    margin-bottom: 45px;
+  }
+  .select-selected:after {
+    top: 15px;
+    right: 33px;
+    width: 18px;
+    height: 18px;
+  }
+  .mob-submit {
+    width: 580px;
+    height: 90px;
+    position: relative;
+    &:after {
+      content: '';
+      width: 15px;
+      height: 15px;
+      border-bottom: 1px solid white;
+      border-right: 1px solid white;
+      transform: rotate(-45deg);
+      position: absolute;
+      right: 95px;
+      top: 37px;
+    }
+  }
+  .mob-delivery-pay-wrap {
+    border: none;
+  }
+  .mob-tracking {
+    color: #818386;
+    font-size: 20.4px;
+    font-weight: 300;
+    padding-left: 106px;
+  }
+  .mob-submit {
+    margin-top: 27px;
+    margin-bottom: 45px;
+  }
+}
