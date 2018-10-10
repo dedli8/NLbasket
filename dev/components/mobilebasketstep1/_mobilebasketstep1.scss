@@ -86,11 +86,10 @@
   text-align: left;
   padding-top: 40px;
   font-size: 40px;
-  position: relative;
+  overflow: auto;
   margin-bottom: 90px;
   .goods-card-total-price{
-    position: absolute;
-    right: 0;
+   float: right;
     display: inline-block;
     span:last-child{
       vertical-align: super;

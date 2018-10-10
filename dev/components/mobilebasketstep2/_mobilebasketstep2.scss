@@ -143,6 +143,7 @@
     border-bottom: 2px solid #779ec5;
     color: #779ec5;
     font-weight: 300;
+    display: inline;
     margin-left: 80px;
     margin-bottom: 6px;
   }
@@ -176,18 +177,17 @@
     }
   }
   .mob-bonus-box{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 90%;
     margin: 0 auto;
     margin-top: 27px;
+    overflow: auto;
   }
   .mob-bonus-wrap {
     padding-left: 18px;
     padding-top: 5px;
     display: inline-block;
-    width: 50%;
+    min-width: 330px;
+    max-width: 397px;
     margin: 0;
     vertical-align: middle;
     .mob-bonus-input {
@@ -230,6 +230,7 @@
     border: none;
     background-color: #009a49;
     border-radius: 8px;
+    float: right;
   }
   .mob-submit {
     display: block;
